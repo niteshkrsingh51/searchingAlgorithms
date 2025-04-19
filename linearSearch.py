@@ -10,7 +10,6 @@ def lineaSeachWithRecursion(arry,number,index=0):
         return -1
     if arry[index] == number:
         return index
-        
     return lineaSeachWithRecursion(arry,number,index+1)
 
 linearSearch(arry,5)
